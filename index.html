@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1727">
+    <title>Yamaha NMAX | Ride Your Own Way</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="navbar">
+    <a class="logo" href="#home">NMAX<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+        aria-label="Buka navigasi" aria-expanded="false">☰</button>
+
+    <nav id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#features">Fitur</a>
+        <a href="#specs">Spesifikasi</a>
+        <a href="#gallery">Galeri</a>
+    </nav>
+
+    <a class="nav-button" href="#detail">Jelajahi NMAX ↗</a>
+</header>
+
+<main>
+    <section class="hero container" id="home">
+        <div class="hero-text">
+            <div class="eyebrow"><span></span> YAMAHA MAXI EXPERIENCE</div>
+
+            <h1>Ride your<br><span>own</span> <em>way.</em></h1>
+
+            <p class="description">
+                Tampil beda bersama Yamaha NMAX. Desain premium,
+                kenyamanan maksimal, dan gaya modern untuk
+                setiap perjalananmu.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#detail" class="button-primary">Jelajahi NMAX ↗</a>
+                <a href="#features" class="button-secondary">Lihat keunggulan ↓</a>
+            </div>
+
+            <div class="color-picker">
+                <p>PILIH WARNA MOTOR</p>
+
+                <button class="color-option selected" data-color="blue"
+                    aria-pressed="true">
+                    <span class="color-dot blue"></span>Biru Gelap
+                </button>
+
+                <button class="color-option" data-color="lightblue"
+                    aria-pressed="false">
+                    <span class="color-dot lightblue"></span>Biru Muda
+                </button>
+
+                <button class="color-option" data-color="red"
+                    aria-pressed="false">
+                    <span class="color-dot red"></span>Merah
+                </button>
+            </div>
+
+            <div class="stats">
+                <div><strong>155<small>cc*</small></strong><span>Engine series</span></div>
+                <div><strong>MAXI</strong><span>Premium style</span></div>
+                <div><strong>01</strong><span>Your next journey</span></div>
+            </div>
+
+            <p class="disclaimer">*Spesifikasi menyesuaikan tipe dan tahun motor.</p>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-circle"></div>
+            <div class="visual-glow"></div>
+
+            <div class="visual-number">
+                <strong id="slideNumber">01</strong><span>/ 03</span>
+            </div>
+
+            <span class="vertical-text">YAMAHA · NMAX SERIES</span>
+
+            <div class="motor-image">
+                <img src="nmax-blue.png" id="motorPhoto"
+                    alt="Yamaha NMAX biru gelap">
+            </div>
+
+            <div class="visual-caption">
+                <span></span> DESIGNED TO MOVE
+            </div>
+        </div>
+    </section>
+
+    <section class="section container" id="features">
+        <div class="section-heading">
+            <div>
+                <div class="eyebrow"><span></span> MADE FOR YOUR MOMENT</div>
+                <h2>Lebih dari sekadar<br><span>perjalanan.</span></h2>
+            </div>
+            <p>Gaya, kenyamanan, dan pengalaman berkendara
+                untuk menemani aktivitas setiap harimu.</p>
+        </div>
+
+        <div class="feature-grid">
+            <article class="feature-card">
+                <span class="feature-number">01</span>
+                <div class="feature-icon">✳</div>
+                <small>DESIGN</small>
+                <h3>Bold by<br>nature.</h3>
+                <p>Desain sporty dan modern dengan karakter maxi scooter.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">02</span>
+                <div class="feature-icon">⌁</div>
+                <small>COMFORT</small>
+                <h3>Comfort in<br>every ride.</h3>
+                <p>Kenali desain dan kenyamanan sesuai tipe NMAX pilihanmu.</p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-number">03</span>
+                <div class="feature-icon">◉</div>
+                <small>TECHNOLOGY</small>
+                <h3>Smart move.<br>Smart life.</h3>
+                <p>Jelajahi fitur dan teknologi yang tersedia pada variannya.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section container specs-section" id="specs">
+        <div class="specs-intro">
+            <div class="eyebrow"><span></span> ENGINEERED FOR EVERYDAY</div>
+            <h2>Power meets<br><span>precision.</span></h2>
+            <p>Kenali detail motor pilihanmu sebelum menentukan
+                perjalanan berikutnya. Spesifikasi dapat berbeda
+                menurut tipe dan tahun produksi.</p>
+
+            <a class="text-link" href="https://www.yamaha-motor.co.id/"
+                target="_blank" rel="noopener noreferrer">
+                Yamaha Indonesia ↗
+            </a>
+        </div>
+
+        <div class="specs-panel">
+            <div class="panel-header">
+                <span>TECHNICAL OVERVIEW</span>
+                <span class="pink">NMAX SERIES</span>
+            </div>
+
+            <div class="spec-row">
+                <div><small>01 / ENGINE</small><strong>155 cc*</strong></div>
+                <span>Kapasitas mesin</span>
+            </div>
+            <div class="spec-row">
+                <div><small>02 / TECHNOLOGY</small><strong>VVA*</strong></div>
+                <span>Variable Valve Actuation</span>
+            </div>
+            <div class="spec-row">
+                <div><small>03 / CATEGORY</small><strong>MAXI</strong></div>
+                <span>Premium scooter</span>
+            </div>
+
+            <p class="disclaimer">*Periksa spesifikasi resmi sesuai varian.</p>
+        </div>
+    </section>
+
+    <section class="section container" id="gallery">
+        <div class="section-heading">
+            <div>
+                <div class="eyebrow"><span></span> YOUR STYLE, YOUR NMAX</div>
+                <h2>Find your<br><span>statement.</span></h2>
+            </div>
+            <p>Pilih foto motor di bawah untuk mengganti
+                tampilan motor utama.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <button class="gallery-card" data-pick="red">
+                <div class="gallery-image">
+                    <img src="nmax-red.png" alt="NMAX merah">
+                </div>
+                <span class="gallery-info">
+                    <strong>Red Edition</strong>
+                    <small>Bold &amp; confident ↗</small>
+                </span>
+            </button>
+
+            <button class="gallery-card" data-pick="lightblue">
+                <div class="gallery-image">
+                    <img src="nmax-blue.png" alt="NMAX biru muda">
+                </div>
+                <span class="gallery-info">
+                    <strong>Light Blue</strong>
+                    <small>Fresh &amp; modern ↗</small>
+                </span>
+            </button>
+
+            <button class="gallery-card" data-pick="blue">
+                <div class="gallery-image">
+                    <img src="nmax-light-blue.png" alt="NMAX biru gelap">
+                </div>
+                <span class="gallery-info">
+                    <strong>Midnight Blue</strong>
+                    <small>Cool &amp; confident ↗</small>
+                </span>
+            </button>
+        </div>
+
+        <p class="disclaimer">Nama warna merupakan label tampilan website,
+            bukan daftar warna resmi seluruh varian.</p>
+    </section>
+
+    <section class="final-section container" id="detail">
+        <div class="eyebrow"><span></span> READY FOR YOUR NEXT CHAPTER?</div>
+        <h2>Make every ride<br><em>count.</em></h2>
+        <p>Temukan informasi varian, fitur, dan harga melalui
+            website resmi Yamaha Indonesia.</p>
+        <a href="https://www.yamaha-motor.co.id/" target="_blank"
+            rel="noopener noreferrer" class="button-primary">
+            Kunjungi Yamaha Indonesia ↗
+        </a>
+    </section>
+</main>
+
+<aside class="sticky-price">
+    <div class="sticky-brand">
+        <div class="mini-logo">N</div>
+        <div><strong>YAMAHA NMAX</strong><small>MAXI EXPERIENCE</small></div>
+    </div>
+
+    <div class="price-info">
+        <small>INFORMASI HARGA</small>
+        <strong>Cek harga resmi</strong>
+    </div>
+
+    <a href="https://www.yamaha-motor.co.id/" target="_blank"
+        rel="noopener noreferrer" class="price-button">
+        Lihat Harga ↗
+    </a>
+</aside>
+
+<footer class="footer container">
+    <a href="#home" class="logo">NMAX<span>.</span></a>
+    <p>Website konsep Yamaha NMAX.</p>
+    <a href="#home">Kembali ke atas ↑</a>
+</footer>
+
+<script src="script.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
+
